@@ -22,7 +22,7 @@ import org.junit.runner.RunWith
 @LargeTest
 class AvatarActivityIntentTest {
 
-    @get:Rule
+   /* @get:Rule
     val testRule = IntentsTestRule(
         AvatarActivity::class.java, true, false
     )
@@ -45,6 +45,6 @@ class AvatarActivityIntentTest {
         val intent = testRule.activityResult.resultData
         assertThat(resultCode, `is`(RESULT_OK))
         assertThat(intent, hasExtra("EXTRA_AVATAR", Avatar(2, R.drawable.bulbasur, "Bulbasur")))
-    }
+    }*/
 
 }

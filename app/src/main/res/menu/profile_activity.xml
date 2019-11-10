@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/mnuSave"
-        android:title="@string/profile_save"
+        android:title="@string/profile_title"
         android:icon="@drawable/ic_save_24dp"
         app:showAsAction="ifRoom|withText"
         app:iconTint="@color/white"/>

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith
 @LargeTest
 class AvatarActivityRotationTest {
 
-    @get:Rule
+    /*@get:Rule
     val testRule = IntentsTestRule(
         AvatarActivity::class.java, true, false
     )
@@ -41,6 +41,6 @@ class AvatarActivityRotationTest {
         onView(withId(R.id.imgAvatar2)).perform(click())
         Rotation.rotateScreen(testRule.activity)
         onView(withId(R.id.chkAvatar2)).check(matches(isChecked()))
-    }
+    }*/
 
 }

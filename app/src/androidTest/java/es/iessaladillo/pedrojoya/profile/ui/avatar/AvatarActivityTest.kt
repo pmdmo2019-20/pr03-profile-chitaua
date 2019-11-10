@@ -23,7 +23,7 @@ import org.junit.runner.RunWith
 @LargeTest
 class AvatarActivityTest {
 
-    @get:Rule
+    /*@get:Rule
     val testRule = IntentsTestRule(
         AvatarActivity::class.java, true, false
     )
@@ -195,5 +195,5 @@ class AvatarActivityTest {
         onView(withId(selectedCheckBoxResId)).perform(click())
         onView(withId(selectedCheckBoxResId)).check(matches(isChecked()))
     }
-
+*/
 }
